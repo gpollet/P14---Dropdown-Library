@@ -3,7 +3,7 @@
   "license": "UNLICENSED",
   "version": "0.0.0",
   "publishConfig": {
-    "gpollet:registry": "https://npm.pkg.github.com"
+    "gpollet:npm": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vite",
