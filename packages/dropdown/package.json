@@ -1,9 +1,12 @@
 {
-  "name": "dropdown",
+  "name": "@gpollet/dropdown",
   "license": "UNLICENSED",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "publishConfig": {
-    "gpollet:npm": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "git@github.com:gpollet/P14---Dropdown-Library.git"
   },
   "scripts": {
     "dev": "vite",
@@ -11,25 +14,6 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.3.1",
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.9",
-    "vite-plugin-dts": "^2.3.0",
-    "vite-plugin-libcss": "^1.1.0"
   },
   "peerDependencies": {
     "react": "^18.x",
