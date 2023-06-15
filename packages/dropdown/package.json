@@ -1,13 +1,7 @@
 {
-  "name": "@gpollet/dropdown",
+  "name": "gpollet-dropdown",
   "license": "UNLICENSED",
   "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "repository": {
-    "url": "git@github.com:gpollet/P14---Dropdown-Library.git"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
