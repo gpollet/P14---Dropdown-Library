@@ -1,0 +1,13 @@
+{
+  "name": "dropdown-library",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "workshop/*"
+    ]
+  },
+  "devDependencies": {
+    "json": "^11.0.0"
+  }
+}
